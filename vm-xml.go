@@ -74,7 +74,7 @@ const VM_XML = `<?xml version="1.0" encoding="UTF-16" standalone="yes"?>
       <drive0>
         <iops_limit type="integer">0</iops_limit>
         <iops_reservation type="integer">0</iops_reservation>
-        <pathname type="string">C:\disk.vhd</pathname>
+        <pathname type="string">INSERT_VHD_PATH_HERE</pathname>
         <persistent_reservations_supported type="bool">False</persistent_reservations_supported>
         <type type="string">VHD</type>
         <weight type="integer">100</weight>
