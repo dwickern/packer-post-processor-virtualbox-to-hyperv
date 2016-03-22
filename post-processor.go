@@ -70,6 +70,10 @@ func (p *PostProcessor) Configure(raws ...interface{}) error {
 		return fmt.Errorf("Failed to create VirtualBox driver: %s", err)
 	}
 
+	if _, err := os.Stat(p.config.StagingDir); err == nil {
+		return fmt.Errorf("Staging directory '%s' already exists.", p.config.StagingDir)
+	}
+
 	return nil
 }
 
