@@ -1,0 +1,13 @@
+{
+  "ConfigVersion": "0.9",
+  "PackageVersion": "0.1.0",
+  "Arch": "386 amd64",
+  "Os": "darwin linux freebsd openbsd windows netbsd",
+  "TaskSettings" : {
+    "bintray" : {
+      "package" : "packer-post-processor-virtualbox-to-hyperv",
+      "subject": "dwickern",
+      "repository": "packer-plugins"
+    }
+  }
+}
