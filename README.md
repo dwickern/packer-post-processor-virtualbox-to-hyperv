@@ -41,7 +41,7 @@ This would generate a vagrant box for vmware, virtualbox and hyperv providers
 
 In order for a box to work in Hyper-V, the guest VM will need Hyper-V integration tools installed. Otherwise, vagrant will not be able to determine the guest's IP address.
 
-For a real example, see this [packer template for Windows 2008 R2].
+For some real examples, see packer templates for [Windows 2008 R2] and [Ubuntu 14.04].
 
 Configuration
 ---
@@ -86,4 +86,5 @@ Based on [MSOpenTech/packer-hyperv] using the techniques described in [Creating 
 [Installing Plugins]: https://www.packer.io/docs/extend/plugins.html
 [Vagrant post-processor]: https://www.packer.io/docs/post-processors/vagrant.html
 [vmname]: https://www.vagrantup.com/docs/hyperv/configuration.html
-[packer template for Windows 2008 R2]: https://github.com/dwickern/packer-windows/blob/master/windows_2008_r2.json
+[Windows 2008 R2]: https://github.com/dwickern/packer-windows/blob/master/windows_2008_r2.json
+[Ubuntu 14.04]: https://github.com/dwickern/packer-ubuntu/blob/master/ubuntu.json
