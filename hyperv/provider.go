@@ -4,8 +4,8 @@ package hyperv
 
 import (
 	"fmt"
-	"github.com/mitchellh/packer/packer"
-	"github.com/mitchellh/packer/post-processor/vagrant"
+	"github.com/hashicorp/packer/packer"
+	"github.com/hashicorp/packer/post-processor/vagrant"
 	"path/filepath"
 	"os"
 )
