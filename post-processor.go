@@ -10,11 +10,11 @@ import (
 
 	"packer-post-processor-virtualbox-to-hyperv/hyperv"
 
-	vbox "github.com/mitchellh/packer/builder/virtualbox/common"
-	"github.com/mitchellh/packer/helper/config"
-	"github.com/mitchellh/packer/packer"
-	"github.com/mitchellh/packer/post-processor/vagrant"
-	"github.com/mitchellh/packer/template/interpolate"
+	vbox "github.com/hashicorp/packer/builder/virtualbox/common"
+	"github.com/hashicorp/packer/helper/config"
+	"github.com/hashicorp/packer/packer"
+	"github.com/hashicorp/packer/post-processor/vagrant"
+	"github.com/hashicorp/packer/template/interpolate"
 )
 
 type Config struct {
